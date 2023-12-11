@@ -11,5 +11,4 @@ message XORRequest {
 
 message XORResponse {
   int32 result = 1;
-
 }
