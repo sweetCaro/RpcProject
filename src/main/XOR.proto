@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service XORService {
+  rpc CalculateXOR (XORRequest) returns (XORResponse);
+}
+
+message XORRequest {
+  int32 num1 = 1;
+  int32 num2 = 2;
+}
+
+message XORResponse {
+  int32 result = 1;
+}
